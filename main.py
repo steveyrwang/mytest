@@ -1,0 +1,2 @@
+def mystring():
+    return "mystring"
