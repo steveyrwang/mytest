@@ -8,10 +8,3 @@ install:
 # command to run tests
 script:
   - pytest
-deploy:
-  provider: releases
-  api_key: "b0c25251c4db73cb80862c6b396b1e1ee092d417"
-  file: "empty.txt"
-  skip_cleanup: true
-  draft: true
-
